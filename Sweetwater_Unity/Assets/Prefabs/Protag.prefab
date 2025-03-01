@@ -385,7 +385,7 @@ MonoBehaviour:
   _interactInterceptLayerMask:
     serializedVersion: 2
     m_Bits: 192
-  _debug: 0
+  _setInteractionEnabledEvent: {fileID: 11400000, guid: 8a7cc7458bd405d48acbcdd29c05207f, type: 2}
   _canInteractCheckEvent:
     m_PersistentCalls:
       m_Calls:

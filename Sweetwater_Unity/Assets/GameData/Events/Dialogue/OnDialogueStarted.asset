@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 509f402d747b42059ba177f6fdb1f99e, type: 3}
-  m_Name: StartDialog
+  m_Script: {fileID: 11500000, guid: 058cd2ebe33d4d39a1b6fa61a6138c4c, type: 3}
+  m_Name: OnDialogueStarted
   m_EditorClassIdentifier: 
-  description: 'Invoke to start a dialog.
-
-    Parameter is the node to play'
+  description: 

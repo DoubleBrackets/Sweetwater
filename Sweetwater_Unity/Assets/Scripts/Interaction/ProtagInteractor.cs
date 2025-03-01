@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Base;
+using Events;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Serialization;
@@ -20,13 +21,31 @@ namespace Interaction
         
         [SerializeField]
         private LayerMask _interactInterceptLayerMask;
-        
+
+        [Header("Event (In)")]
         [SerializeField]
-        private bool _debug;
+        private BoolEvent _setInteractionEnabledEvent;
         
         [SerializeField]
         private UnityEvent<CanInteractCheckResult> _canInteractCheckEvent;
         
+        private bool _interactEnabled = true;
+
+        private void Awake()
+        {
+            _setInteractionEnabledEvent.AddListener(HandleInteractionEnabled);
+        }
+        
+        private void OnDestroy()
+        {
+            _setInteractionEnabledEvent.RemoveListener(HandleInteractionEnabled);
+        }
+        
+        private void HandleInteractionEnabled(bool value)
+        {
+            _interactEnabled = value;
+        }
+
         private void Update()
         {
             CheckInteractions();
@@ -43,7 +62,7 @@ namespace Interaction
         {
             var hits = Probe();
             
-            if(hits.Count == 0)
+            if(hits.Count == 0 || !_interactEnabled)
             {
                 _canInteractCheckEvent.Invoke(new CanInteractCheckResult()
                 {
@@ -69,7 +88,7 @@ namespace Interaction
         {
             var hits = Probe();
             
-            if(hits.Count == 0)
+            if(hits.Count == 0 || !_interactEnabled)
             {
                 return;
             }

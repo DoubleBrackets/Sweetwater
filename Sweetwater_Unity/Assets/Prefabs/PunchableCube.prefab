@@ -53,7 +53,7 @@ MonoBehaviour:
       Data4: 1892334077
     Path: event:/CoolSound
   Event: 
-  EventPlayTrigger: 1
+  EventPlayTrigger: 0
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
