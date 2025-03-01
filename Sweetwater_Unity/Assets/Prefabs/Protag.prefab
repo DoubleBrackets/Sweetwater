@@ -279,7 +279,7 @@ CharacterController:
   serializedVersion: 3
   m_Height: 2
   m_Radius: 0.5
-  m_SlopeLimit: 45
+  m_SlopeLimit: 55
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
@@ -330,8 +330,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _moveVelocity: 4
   _gravityAccel: -20
-  _jumpHeight: 1
-  _acceleration: 35
+  _jumpHeight: 0
+  _acceleration: 1000
   _coyoteTime: 0
   _groundStickForce: 5
   _characterController: {fileID: 7071063328355856998}
