@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 509f402d747b42059ba177f6fdb1f99e, type: 3}
-  m_Name: StartDialog
+  m_Script: {fileID: 11500000, guid: 7303246fad8e2a049aebd6c0c71d2985, type: 3}
+  m_Name: DiagonalExpandAppearance
   m_EditorClassIdentifier: 
-  description: 'Invoke to start a dialog.
-
-    Parameter is the node to play'
+  tagID: diagexp
+  baseDuration: 0.5
+  diagonalFromBttmLeft: 0

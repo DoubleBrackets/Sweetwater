@@ -40,6 +40,8 @@ public class FPController : MonoBehaviour
     {
         GetInputs(out Vector2 horizontalInput, out bool jumpPressed);
 
+        Debug.Log(horizontalInput);
+
         UpdateTiming();
 
         Vector3 targetHorizontalVelocity = new Vector3(horizontalInput.x, 0, horizontalInput.y)

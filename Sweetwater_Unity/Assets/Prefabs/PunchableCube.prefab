@@ -53,7 +53,7 @@ MonoBehaviour:
       Data4: 1892334077
     Path: event:/CoolSound
   Event: 
-  EventPlayTrigger: 1
+  EventPlayTrigger: 0
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 8963933634620448704}
   - component: {fileID: 6477496756562085872}
   - component: {fileID: 6258193287910162663}
+  - component: {fileID: 4830526487448186390}
   m_Layer: 6
   m_Name: PunchableCube
   m_TagString: Untagged
@@ -218,3 +219,72 @@ MonoBehaviour:
           m_StringArgument: Punch
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4830526487448186390}
+        m_TargetAssemblyTypeName: Effects.ScreenShakeEffect, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Punch
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4830526487448186390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3774190581701738343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b8deeb3b8ee9c468495db35ca6ef94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  devDescription: 
+  _screenShakeEffect:
+    ImpulseChannel: 1
+    ImpulseShape: 3
+    CustomImpulseShape:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    ImpulseDuration: 0.35
+    ImpulseType: 0
+    DissipationRate: 0
+    RawSignal: {fileID: 0}
+    AmplitudeGain: 1
+    FrequencyGain: 1
+    RepeatMode: 0
+    Randomize: 1
+    TimeEnvelope:
+      AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AttackTime: 0
+      SustainTime: 0.2
+      DecayTime: 0.7
+      ScaleWithImpact: 1
+      HoldForever: 0
+    ImpactRadius: 100
+    DirectionMode: 0
+    DissipationMode: 2
+    DissipationDistance: 100
+    PropagationSpeed: 343
+  _shakeVelocity: {x: 1, y: 1, z: 1}
+  _force: 0.3
+  _playOnStart: 0
+  _continuous: 0
