@@ -1,9 +1,10 @@
+using Base;
 using Unity.Cinemachine;
 using UnityEngine;
 
 namespace Protag
 {
-    public class FPCamera : MonoBehaviour
+    public class FPCamera : DescriptionMono
     {
         [Header("Dependencies")]
 
