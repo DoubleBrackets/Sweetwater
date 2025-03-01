@@ -690,10 +690,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1619167597741828236, guid: 7eb27c606c3149e4aaaf5d4c4319bfba, type: 3}
-      propertyPath: _acceleration
-      value: 1000
-      objectReference: {fileID: 0}
     - target: {fileID: 5353740993817164302, guid: 7eb27c606c3149e4aaaf5d4c4319bfba, type: 3}
       propertyPath: m_Name
       value: Protag
@@ -794,6 +790,14 @@ PrefabInstance:
     - target: {fileID: 3966079569293310722, guid: 5acdc6917066b1b4eb91e95840343a9a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4830526487448186390, guid: 5acdc6917066b1b4eb91e95840343a9a, type: 3}
+      propertyPath: _force
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4830526487448186390, guid: 5acdc6917066b1b4eb91e95840343a9a, type: 3}
+      propertyPath: _screenShakeEffect.ImpulseDuration
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
