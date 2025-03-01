@@ -36,13 +36,24 @@ namespace Protag
 
         public void Start()
         {
-            Cursor.lockState = CursorLockMode.Locked;
+            // Cursor.lockState = CursorLockMode.Locked;
         }
 
         private void Update()
         {
             float mouseX = Input.GetAxis("Mouse X");
             float mouseY = Input.GetAxis("Mouse Y");
+
+            if (Input.GetMouseButton(1))
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+            else
+            {
+                Cursor.lockState = CursorLockMode.None;
+                mouseY = 0;
+                mouseX = 0;
+            }
 
             _xRotation -= mouseY * _sensitivity;
             _xRotation = Mathf.Clamp(_xRotation, -90f, 90f);

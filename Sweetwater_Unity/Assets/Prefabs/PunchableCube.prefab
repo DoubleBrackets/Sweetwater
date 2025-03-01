@@ -190,7 +190,7 @@ MonoBehaviour:
 '
   _interactionDistance: 3.86
   _cursorHint: Punch the Box
-  _oneTimeUse: 1
+  _oneTimeUse: 0
   OnInteractEvent:
     m_PersistentCalls:
       m_Calls:
@@ -204,5 +204,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: eb8284cf48a509f4a90ce4b921932825, type: 2}
+        m_TargetAssemblyTypeName: Events.SoEvent`1[[System.String, mscorlib
+        m_MethodName: Raise
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Punch
           m_BoolArgument: 0
         m_CallState: 2
