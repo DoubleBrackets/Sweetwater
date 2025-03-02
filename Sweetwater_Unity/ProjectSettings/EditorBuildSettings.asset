@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/BasicGameplayTest.unity
     guid: fbc0848b504a85549b21dff8f05a20d5
   - enabled: 1
-    path: Assets/Scenes/TheBoat.unity
+    path: Assets/Scenes/3DArtTestScene.unity
     guid: ef01600755e6040bdbb46df39e67d0a1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
