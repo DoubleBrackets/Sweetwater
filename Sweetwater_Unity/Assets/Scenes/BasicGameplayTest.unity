@@ -587,6 +587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d8e482e245baf4ea2e1b8cd568ce1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  devDescription: 
   _objectsToSpawn:
   - {fileID: 502481650}
   _maxSpawnCount: 3
@@ -608,6 +609,11 @@ MonoBehaviour:
   _interactionDistance: 3.96
   _cursorHint: Clone
   _oneTimeUse: 0
+  _pickupable: 1
+  _pickupTransform: {fileID: 502481657}
+  _pickupPose:
+    position: {x: 0, y: 0, z: 1}
+    rotation: {x: 0.34447905, y: 0, z: 0, w: 0.938794}
   OnInteractEvent:
     m_PersistentCalls:
       m_Calls:
@@ -696,7 +702,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502481650}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &502481657
 Transform:
   m_ObjectHideFlags: 0

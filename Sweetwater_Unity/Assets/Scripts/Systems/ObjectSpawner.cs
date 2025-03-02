@@ -1,9 +1,10 @@
 using System.Collections.Generic;
+using Base;
 using UnityEngine;
 
 namespace Systems
 {
-    public class ObjectSpawner : MonoBehaviour
+    public class ObjectSpawner : DescriptionMono
     {
         [Header("Spawning")]
 

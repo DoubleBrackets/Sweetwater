@@ -30,6 +30,8 @@ public class FPController : MonoBehaviour
     [SerializeField]
     private Transform _cameraTransform;
 
+    public Vector3 Velocity => _velocity;
+
     private Vector3 _velocity;
 
     private float _forceUngroundTime;
@@ -39,7 +41,7 @@ public class FPController : MonoBehaviour
     private void Update()
     {
         GetInputs(out Vector2 horizontalInput, out bool jumpPressed);
-        
+
         UpdateTiming();
 
         Vector3 targetHorizontalVelocity = new Vector3(horizontalInput.x, 0, horizontalInput.y)

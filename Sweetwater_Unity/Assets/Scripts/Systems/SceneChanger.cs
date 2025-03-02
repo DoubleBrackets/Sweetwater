@@ -1,12 +1,13 @@
-using UnityEngine;
+using Base;
+using UnityEngine.SceneManagement;
 
 namespace Systems
 {
-    public class SceneChanger : MonoBehaviour
+    public class SceneChanger : DescriptionMono
     {
         public void ChangeScene(string sceneName)
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+            SceneManager.LoadScene(sceneName);
         }
     }
 }
