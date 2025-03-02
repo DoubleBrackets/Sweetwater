@@ -12,15 +12,15 @@ namespace Protag
 
         [SerializeField]
         private GameObject _defaultCursor;
-        
+
         [SerializeField]
         private GameObject _interactCursor;
-        
+
         public void UpdateInteractionPreview(CanInteractCheckResult check)
         {
             if (check.CanInteract)
             {
-                _interactionPreviewText.text = check.CursorHit;
+                _interactionPreviewText.text = check.CursorHint;
                 _defaultCursor.SetActive(false);
                 _interactCursor.SetActive(true);
             }
