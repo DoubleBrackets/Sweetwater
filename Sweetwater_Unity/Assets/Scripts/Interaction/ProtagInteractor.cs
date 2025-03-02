@@ -67,7 +67,14 @@ namespace Interaction
         /// </summary>
         private void CheckInteractions()
         {
-            List<ProbeResult> hits = Probe();
+            if (!_interactEnabled)
+            {
+                _canInteractCheckEvent.Invoke(new CanInteractCheckResult
+                {
+                    CanInteract = false
+                });
+                return;
+            }
 
             if (_protagPickup.IsHoldingObject)
             {
@@ -79,7 +86,9 @@ namespace Interaction
                 return;
             }
 
-            if (hits.Count == 0 || !_interactEnabled)
+            List<ProbeResult> hits = Probe();
+
+            if (hits.Count == 0)
             {
                 _canInteractCheckEvent.Invoke(new CanInteractCheckResult
                 {
@@ -103,6 +112,11 @@ namespace Interaction
         /// </summary>
         private void AttemptInteract()
         {
+            if (!_interactEnabled)
+            {
+                return;
+            }
+
             if (_protagPickup.IsHoldingObject)
             {
                 _protagPickup.DropObject();
@@ -111,7 +125,7 @@ namespace Interaction
 
             List<ProbeResult> hits = Probe();
 
-            if (hits.Count == 0 || !_interactEnabled)
+            if (hits.Count == 0)
             {
                 return;
             }
