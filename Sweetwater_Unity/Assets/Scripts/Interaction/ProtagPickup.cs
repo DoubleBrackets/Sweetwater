@@ -52,6 +52,12 @@ namespace Interaction
             _heldObject.localRotation = holdPose.rotation;
 
             var objectRb = _heldObject.GetComponentInChildren<Rigidbody>();
+            Collider[] colliders = _heldObject.GetComponentsInChildren<Collider>();
+
+            foreach (Collider coll in colliders)
+            {
+                coll.enabled = false;
+            }
 
             if (objectRb != null)
             {
@@ -69,6 +75,13 @@ namespace Interaction
             }
 
             var objectRb = _heldObject.GetComponentInChildren<Rigidbody>();
+
+            Collider[] colliders = _heldObject.GetComponentsInChildren<Collider>();
+
+            foreach (Collider coll in colliders)
+            {
+                coll.enabled = true;
+            }
 
             if (objectRb != null)
             {
