@@ -510,8 +510,8 @@ GameObject:
   - component: {fileID: 5071148889897202541}
   - component: {fileID: 4233076390538126894}
   - component: {fileID: 7026422144484717040}
-  - component: {fileID: 6705418917056804791}
-  - component: {fileID: 2377712216458133784}
+  - component: {fileID: 3172891560594236612}
+  - component: {fileID: 5079283823296343549}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -568,8 +568,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Here's a big long line of dialogue, ready to be shown to the player.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 628ffa2651ce54d5f865b08dc3cd75cc, type: 2}
-  m_sharedMaterial: {fileID: 4014283862948634620, guid: 628ffa2651ce54d5f865b08dc3cd75cc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f010c2e26bb8247a89d0964beae5bc70, type: 2}
+  m_sharedMaterial: {fileID: 1712337298328754386, guid: f010c2e26bb8247a89d0964beae5bc70, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -593,8 +593,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 105.98
-  m_fontSizeBase: 105.98
+  m_fontSize: 49.1
+  m_fontSizeBase: 49.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -637,7 +637,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &6705418917056804791
+--- !u!114 &3172891560594236612
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -663,12 +663,12 @@ MonoBehaviour:
   styleSheet: {fileID: 0}
   databaseActions: {fileID: 11400000, guid: 1338ce7a444b34d62b603de607b72f14, type: 2}
   defaultAppearancesTags:
-  - diagexp
+  - fade
   defaultDisappearancesTags:
   - fade
   defaultBehaviorsTags: []
   defaultTagsMode: 0
---- !u!114 &2377712216458133784
+--- !u!114 &5079283823296343549
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
