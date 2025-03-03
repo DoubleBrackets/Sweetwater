@@ -116,6 +116,11 @@ namespace Interaction
             };
         }
 
+        public void SetHint(string hint)
+        {
+            _cursorHint = hint;
+        }
+
         public void ResetOneTimeUse()
         {
             _used = false;
