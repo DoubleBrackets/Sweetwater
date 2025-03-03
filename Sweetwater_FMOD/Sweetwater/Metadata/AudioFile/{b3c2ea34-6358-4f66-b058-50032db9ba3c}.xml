@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b3c2ea34-6358-4f66-b058-50032db9ba3c}">
+		<property name="assetPath">
+			<value>518587__kagateni__spotlight-on.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.8317233560090704</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{046bd141-73de-49eb-9fc4-9428eb93b716}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -81,7 +81,7 @@ namespace Interaction
                 _canInteractCheckEvent.Invoke(new CanInteractCheckResult
                 {
                     CanInteract = true,
-                    CursorHint = "Drop Object"
+                    CursorHint = "Drop"
                 });
                 return;
             }
