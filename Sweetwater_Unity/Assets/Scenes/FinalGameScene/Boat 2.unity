@@ -2199,6 +2199,26 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6214451376759477211, guid: ca6f2b9f4710a4c1eab64cd40a7eaa1f, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 6214451376759477211, guid: ca6f2b9f4710a4c1eab64cd40a7eaa1f, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 1092921131
+      objectReference: {fileID: 0}
+    - target: {fileID: 6214451376759477211, guid: ca6f2b9f4710a4c1eab64cd40a7eaa1f, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1275960629
+      objectReference: {fileID: 0}
+    - target: {fileID: 6214451376759477211, guid: ca6f2b9f4710a4c1eab64cd40a7eaa1f, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 676874891
+      objectReference: {fileID: 0}
+    - target: {fileID: 6214451376759477211, guid: ca6f2b9f4710a4c1eab64cd40a7eaa1f, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: 1799689934
+      objectReference: {fileID: 0}
     - target: {fileID: 6458282340700407470, guid: ca6f2b9f4710a4c1eab64cd40a7eaa1f, type: 3}
       propertyPath: OnInteractEvent.m_PersistentCalls.m_Calls.Array.size
       value: 1
