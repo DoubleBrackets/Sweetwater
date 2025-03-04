@@ -241,6 +241,7 @@ MonoBehaviour:
   devDescription: 
   _holdPoint: {fileID: 4186899232223352540}
   _fpController: {fileID: 1619167597741828236}
+  _heldObject: {fileID: 0}
 --- !u!1 &3865377039887554824
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,12 +323,13 @@ Transform:
   m_GameObject: {fileID: 3981539434257138916}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -11.49}
+  m_LocalPosition: {x: 0, y: 0.229, z: -0.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5779729099334402716}
   - {fileID: 6489095892448018633}
+  - {fileID: 3204544632003095216}
   m_Father: {fileID: 7240156147976777121}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &7071063328355856998
@@ -455,7 +457,7 @@ MonoBehaviour:
   _interactCameraTransform: {fileID: 2248234068374209097}
   _interactInterceptLayerMask:
     serializedVersion: 2
-    m_Bits: 192
+    m_Bits: 4294967295
   _protagPickup: {fileID: 576535033605354431}
   _setInteractionEnabledEvent: {fileID: 11400000, guid: 8a7cc7458bd405d48acbcdd29c05207f, type: 2}
   _canInteractCheckEvent:
@@ -918,7 +920,7 @@ MonoBehaviour:
   m_text: Hint
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 628ffa2651ce54d5f865b08dc3cd75cc, type: 2}
-  m_sharedMaterial: {fileID: 4014283862948634620, guid: 628ffa2651ce54d5f865b08dc3cd75cc, type: 2}
+  m_sharedMaterial: {fileID: -7125968903038968811, guid: 628ffa2651ce54d5f865b08dc3cd75cc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1017,6 +1019,69 @@ MonoBehaviour:
   defaultBehaviorsTags:
   - wave
   defaultTagsMode: 0
+--- !u!1 &8890075926718960234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3204544632003095216}
+  - component: {fileID: 5553465203202429543}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3204544632003095216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8890075926718960234}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.229, z: 0.07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7184368157576231220}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5553465203202429543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8890075926718960234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -594737023
+      Data2: 1332611406
+      Data3: 1722648253
+      Data4: 686514588
+    Path: event:/Sweetwater
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &9139432017166660375
 GameObject:
   m_ObjectHideFlags: 0

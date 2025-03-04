@@ -568,15 +568,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Here's a big long line of dialogue, ready to be shown to the player.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f010c2e26bb8247a89d0964beae5bc70, type: 2}
-  m_sharedMaterial: {fileID: 1712337298328754386, guid: f010c2e26bb8247a89d0964beae5bc70, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 85e4150434bd248008b2382ecb810790, type: 2}
+  m_sharedMaterial: {fileID: 8156066369781139488, guid: 85e4150434bd248008b2382ecb810790, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4281874488
+  m_fontColor: {r: 0.21960784, g: 0.21960784, b: 0.21960784, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1226,7 +1226,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 759.99994, y: -86.009995}
+  m_AnchoredPosition: {x: 759.99994, y: -90.22}
   m_SizeDelta: {x: 1479.9999, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4829649639092928103
@@ -1335,7 +1335,7 @@ MonoBehaviour:
   m_text: Character Name
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 628ffa2651ce54d5f865b08dc3cd75cc, type: 2}
-  m_sharedMaterial: {fileID: 4014283862948634620, guid: 628ffa2651ce54d5f865b08dc3cd75cc, type: 2}
+  m_sharedMaterial: {fileID: -7125968903038968811, guid: 628ffa2651ce54d5f865b08dc3cd75cc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

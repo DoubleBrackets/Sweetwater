@@ -47,11 +47,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1849704860
-      Data2: 1159420859
-      Data3: -1863044732
-      Data4: 1892334077
-    Path: event:/CoolSound
+      Data1: -329649178
+      Data2: 1231313191
+      Data3: -1886129493
+      Data4: -80932059
+    Path: event:/SquidSquish
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -171,6 +171,11 @@ MonoBehaviour:
   _interactionDistance: 3.86
   _cursorHint: Turn on Engine
   _oneTimeUse: 1
+  _pickupable: 0
+  _pickupTransform: {fileID: 0}
+  _pickupPose:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
   OnInteractEvent:
     m_PersistentCalls:
       m_Calls:

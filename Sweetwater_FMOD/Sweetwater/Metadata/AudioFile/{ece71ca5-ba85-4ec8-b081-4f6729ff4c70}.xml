@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{ece71ca5-ba85-4ec8-b081-4f6729ff4c70}">
+		<property name="assetPath">
+			<value>53265__stomachache__squid.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>4.2172789115646259</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{046bd141-73de-49eb-9fc4-9428eb93b716}</destination>
+		</relationship>
+	</object>
+</objects>

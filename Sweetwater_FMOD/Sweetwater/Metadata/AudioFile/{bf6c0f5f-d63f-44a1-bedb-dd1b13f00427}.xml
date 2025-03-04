@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{bf6c0f5f-d63f-44a1-bedb-dd1b13f00427}">
+		<property name="assetPath">
+			<value>lightsPowered (1).wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>23.704897959183672</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{046bd141-73de-49eb-9fc4-9428eb93b716}</destination>
+		</relationship>
+	</object>
+</objects>

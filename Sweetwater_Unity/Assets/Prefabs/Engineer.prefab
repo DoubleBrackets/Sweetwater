@@ -47,11 +47,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1403135235
-      Data2: 1140608672
-      Data3: 1844603288
-      Data4: -868868189
-    Path: event:/223479__copyc4t__luckylittlesynthbass
+      Data1: 1092921131
+      Data2: 1275960629
+      Data3: 676874891
+      Data4: 1799689934
+    Path: event:/Dialogue
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -125,7 +125,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4014283862948634620, guid: 628ffa2651ce54d5f865b08dc3cd75cc, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_text: PANIC
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 628ffa2651ce54d5f865b08dc3cd75cc, type: 2}
-  m_sharedMaterial: {fileID: 4014283862948634620, guid: 628ffa2651ce54d5f865b08dc3cd75cc, type: 2}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -384,6 +384,11 @@ MonoBehaviour:
   _interactionDistance: 3.86
   _cursorHint: Talk to Engineer
   _oneTimeUse: 1
+  _pickupable: 0
+  _pickupTransform: {fileID: 0}
+  _pickupPose:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
   OnInteractEvent:
     m_PersistentCalls:
       m_Calls:
