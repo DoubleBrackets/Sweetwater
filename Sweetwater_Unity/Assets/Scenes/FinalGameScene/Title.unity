@@ -151,11 +151,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 2054594187
-      Data2: 1116499445
-      Data3: -366144617
-      Data4: 1180827732
-    Path: event:/SoundElec
+      Data1: 1403135235
+      Data2: 1140608672
+      Data3: 1844603288
+      Data4: -868868189
+    Path: event:/223479__copyc4t__luckylittlesynthbass
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -504,7 +504,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &871391321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -520,11 +520,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1991140467
-      Data2: 1269030545
-      Data3: -1393079880
-      Data4: 307104606
-    Path: event:/348969__daven__monster-c
+      Data1: -594737023
+      Data2: 1332611406
+      Data3: 1722648253
+      Data4: 686514588
+    Path: event:/Sweetwater
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
