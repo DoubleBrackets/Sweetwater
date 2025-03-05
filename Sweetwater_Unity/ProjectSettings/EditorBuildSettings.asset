@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/FinalGameScene/Dream - Opening.unity
+    guid: 2919a565f5b4a42b5a154c07a0cce892
+  - enabled: 1
     path: Assets/Scenes/Tests/BasicGameplayTest.unity
     guid: fbc0848b504a85549b21dff8f05a20d5
   - enabled: 1
     path: Assets/Scenes/FinalGameScene/Boat.unity
     guid: ef01600755e6040bdbb46df39e67d0a1
-  - enabled: 1
-    path: Assets/Scenes/FinalGameScene/Dream - Opening.unity
-    guid: 2919a565f5b4a42b5a154c07a0cce892
   - enabled: 1
     path: Assets/Scenes/FinalGameScene/Menu.unity
     guid: 965cf524877164a93b6c300163d7a525
