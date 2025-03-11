@@ -1272,11 +1272,17 @@ Transform:
   - {fileID: 1614456198}
   m_Father: {fileID: 981502931}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &377962945 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3388014422896665482, guid: 2885bca239d7b4631a2e62f27024ecf7, type: 3}
+--- !u!114 &377962946 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3933803982549005066, guid: 2885bca239d7b4631a2e62f27024ecf7, type: 3}
   m_PrefabInstance: {fileID: 701730534}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &407384025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4363,7 +4369,7 @@ PrefabInstance:
     - target: {fileID: 6745842522031961201, guid: 2885bca239d7b4631a2e62f27024ecf7, type: 3}
       propertyPath: OnInteractEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 377962945}
+      objectReference: {fileID: 377962946}
     - target: {fileID: 6745842522031961201, guid: 2885bca239d7b4631a2e62f27024ecf7, type: 3}
       propertyPath: OnInteractEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
