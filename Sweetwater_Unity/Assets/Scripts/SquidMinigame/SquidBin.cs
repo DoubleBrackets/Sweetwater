@@ -1,12 +1,13 @@
-using Base;
 using Interaction;
+using NaughtyAttributes;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace SquidMinigame
 {
-    public class SquidBin : DescriptionMono
+    public class SquidBin : MonoBehaviour
     {
+        [InfoBox("Bin that collects Squid interactable objects. Drop into SquidCargo")]
         [Header("Depends")]
 
         [SerializeField]

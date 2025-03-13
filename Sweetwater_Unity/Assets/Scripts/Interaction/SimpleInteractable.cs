@@ -1,4 +1,5 @@
 using Base;
+using NaughtyAttributes;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -30,7 +31,13 @@ namespace Interaction
 
         public UnityEvent<InteractionAttempt> OnInteractEvent;
 
+        [Header("Debug")]
+
+        [ShowNonSerializedField]
         private bool _used;
+
+        [ShowNonSerializedField]
+        private bool _interactable = true;
 
         private void OnDrawGizmos()
         {
@@ -99,6 +106,14 @@ namespace Interaction
 
         public CanInteractCheckResult CanInteract(InteractionAttempt attempt)
         {
+            if (!_interactable)
+            {
+                return new CanInteractCheckResult
+                {
+                    CanInteract = false
+                };
+            }
+
             if (_oneTimeUse && _used)
             {
                 return new CanInteractCheckResult
@@ -130,6 +145,11 @@ namespace Interaction
         public void ResetOneTimeUse()
         {
             _used = false;
+        }
+
+        public void SetInteractable(bool interactable)
+        {
+            _interactable = interactable;
         }
     }
 }
