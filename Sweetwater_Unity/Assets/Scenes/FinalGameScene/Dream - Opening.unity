@@ -9218,9 +9218,21 @@ PrefabInstance:
       value: 0.98039216
       objectReference: {fileID: 0}
     - target: {fileID: 3301037334284140324, guid: 949631f483f8f41be9a3c1b71b57e748, type: 3}
+      propertyPath: m_Size.x
+      value: 17.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 3301037334284140324, guid: 949631f483f8f41be9a3c1b71b57e748, type: 3}
+      propertyPath: m_Size.y
+      value: 32.797413
+      objectReference: {fileID: 0}
+    - target: {fileID: 3301037334284140324, guid: 949631f483f8f41be9a3c1b71b57e748, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 13d77e4fe44d74f8a83eaf05f4a417e1, type: 3}
+      objectReference: {fileID: 21300000, guid: c7a18212da7f448a5bfa5ac24c02c0f5, type: 3}
+    - target: {fileID: 3301037334284140324, guid: 949631f483f8f41be9a3c1b71b57e748, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6923761451910195675, guid: 949631f483f8f41be9a3c1b71b57e748, type: 3}
       propertyPath: _cursorHint
       value: Talk to Boatman
@@ -17643,6 +17655,22 @@ PrefabInstance:
     - target: {fileID: 3903630069933440806, guid: ca6f2b9f4710a4c1eab64cd40a7eaa1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808895864726548872, guid: ca6f2b9f4710a4c1eab64cd40a7eaa1f, type: 3}
+      propertyPath: m_Size.x
+      value: 11.217143
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808895864726548872, guid: ca6f2b9f4710a4c1eab64cd40a7eaa1f, type: 3}
+      propertyPath: m_Size.y
+      value: 29.489998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808895864726548872, guid: ca6f2b9f4710a4c1eab64cd40a7eaa1f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 61735f0a9a044486a802bf5f492b62dc, type: 3}
+    - target: {fileID: 5808895864726548872, guid: ca6f2b9f4710a4c1eab64cd40a7eaa1f, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6458282340700407470, guid: ca6f2b9f4710a4c1eab64cd40a7eaa1f, type: 3}
       propertyPath: OnInteractEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Target
