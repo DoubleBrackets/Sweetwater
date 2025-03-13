@@ -703,6 +703,8 @@ MonoBehaviour:
   _castDuration: 10
   _reelDuration: 10
   _fishPullInterval: {x: 1, y: 3}
+  _castHint: Cast
+  _reelHint: Reel In
   OnItemReeledEvent:
     m_PersistentCalls:
       m_Calls:
