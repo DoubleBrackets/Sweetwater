@@ -57,7 +57,7 @@ namespace Interaction
                 Gizmos.DrawLine(relativeHoldPos, relativeHoldPos + _pickupPose.rotation * Vector3.forward);
                 Gizmos.color = Color.green;
 
-                Gizmos.DrawLine(relativeHoldPos, relativeHoldPos + _pickupPose.rotation * Vector3.down);
+                Gizmos.DrawLine(relativeHoldPos, relativeHoldPos + _pickupPose.rotation * Vector3.up);
             }
         }
 

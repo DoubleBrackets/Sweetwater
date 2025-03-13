@@ -2221,7 +2221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7746106887482988063, guid: 0eb053a4f23934e4fbaf014af4245525, type: 3}
       propertyPath: OnInteractEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Boat
+      value: Minigame
       objectReference: {fileID: 0}
     - target: {fileID: 7746106887482988063, guid: 0eb053a4f23934e4fbaf014af4245525, type: 3}
       propertyPath: OnInteractEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName

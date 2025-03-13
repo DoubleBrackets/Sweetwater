@@ -21,7 +21,7 @@ namespace SquidMinigame
         [SerializeField]
         private SimpleInteractable _interactable;
 
-        [Header("Config")]
+        [Header("Fishing Config")]
 
         [SerializeField]
         private float _castDuration;
@@ -32,6 +32,14 @@ namespace SquidMinigame
         [SerializeField]
         [MinMaxSlider(0f, 20f)]
         private Vector2 _fishPullInterval;
+
+        [Header("Text")]
+
+        [SerializeField]
+        private string _castHint;
+
+        [SerializeField]
+        private string _reelHint;
 
         [Header("Events")]
 
@@ -116,7 +124,7 @@ namespace SquidMinigame
                 _reelState = ReelState.WaitingForFish;
                 OnFinishedCastingEvent?.Invoke();
                 _interactable.SetInteractable(true);
-                _interactable.SetHint("Reel In");
+                _interactable.SetHint(_reelHint);
             }
         }
 
@@ -139,7 +147,7 @@ namespace SquidMinigame
                 _reelState = ReelState.Idle;
                 OnFinishedReelingEvent?.Invoke();
                 _interactable.SetInteractable(true);
-                _interactable.SetHint("Cast");
+                _interactable.SetHint(_castHint);
             }
         }
     }

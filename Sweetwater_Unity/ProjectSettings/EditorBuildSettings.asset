@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinalGameScene/Boat 2.unity
     guid: e95a977db197e4199a2ec80e2e020a41
+  - enabled: 1
+    path: Assets/Scenes/FinalGameScene/Minigame.unity
+    guid: 32d1461d043384989a274dd53cc031ef
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
