@@ -1,4 +1,3 @@
-using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -6,11 +5,6 @@ namespace SquidMinigame
 {
     public class SquidCargoHold : MonoBehaviour
     {
-        [Header("Depends")]
-
-        [SerializeField]
-        private TMP_Text _squidCountText;
-
         [Header("Events")]
 
         public UnityEvent<int> OnSquidCountChanged;
@@ -35,7 +29,6 @@ namespace SquidMinigame
 
             _currentSquidCount += squidBin.CurrentSquidCount;
             OnSquidCountChanged?.Invoke(_currentSquidCount);
-            _squidCountText.text = _currentSquidCount.ToString();
             Destroy(squidBin.gameObject);
         }
     }
