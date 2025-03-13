@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d33a03d5-9edf-44ed-b836-02862220a72f}">
+		<property name="assetPath">
+			<value>406333__slowmote__waves-and-cargoship (1).wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>33.658049886621313</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{046bd141-73de-49eb-9fc4-9428eb93b716}</destination>
+		</relationship>
+	</object>
+</objects>
