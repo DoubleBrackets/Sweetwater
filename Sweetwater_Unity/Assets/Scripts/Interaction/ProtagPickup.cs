@@ -34,8 +34,8 @@ namespace Interaction
                 return;
             }
 
-            Gizmos.color = Color.yellow;
-            Gizmos.DrawWireSphere(_holdPoint.position, 0.1f);
+            Gizmos.color = Color.magenta;
+            Gizmos.DrawWireSphere(_holdPoint.position, 0.15f);
         }
 
         public void PickupObject(Transform objectToPickup, Pose holdPose)

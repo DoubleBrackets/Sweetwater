@@ -43,8 +43,14 @@ namespace Interaction
                 Vector3 pos = _pickupTransform.rotation * Quaternion.Inverse(_pickupPose.rotation) *
                               _pickupPose.position;
                 Vector3 position = _pickupTransform.position;
-                Gizmos.DrawWireSphere(position - pos, 0.1f);
-                Gizmos.DrawLine(position, position - pos);
+                Vector3 relativeHoldPos = position - pos;
+                Gizmos.DrawWireSphere(relativeHoldPos, 0.1f);
+
+                Gizmos.color = Color.blue;
+                Gizmos.DrawLine(relativeHoldPos, relativeHoldPos + _pickupPose.rotation * Vector3.forward);
+                Gizmos.color = Color.green;
+
+                Gizmos.DrawLine(relativeHoldPos, relativeHoldPos + _pickupPose.rotation * Vector3.down);
             }
         }
 

@@ -1,16 +1,25 @@
 using Base;
 using Interaction;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace SquidMinigame
 {
     public class SquidBin : DescriptionMono
     {
-        [SerializeField]
-        private int _maxSquidCount;
+        [Header("Depends")]
 
         [SerializeField]
         private SimpleInteractable _interactable;
+
+        [Header("Config")]
+
+        [SerializeField]
+        private int _maxSquidCount;
+
+        [Header("Events")]
+
+        public UnityEvent<int> OnSquidCountChanged;
 
         public int CurrentSquidCount => _currentSquidCount;
 
@@ -39,6 +48,8 @@ namespace SquidMinigame
             }
 
             _currentSquidCount++;
+
+            OnSquidCountChanged?.Invoke(_currentSquidCount);
 
             _interactable.SetHint($"{_currentSquidCount}/{_maxSquidCount}");
         }
