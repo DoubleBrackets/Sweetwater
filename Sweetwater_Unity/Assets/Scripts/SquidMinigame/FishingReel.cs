@@ -15,6 +15,7 @@ namespace SquidMinigame
             Reeling
         }
 
+        [InfoBox("Handles behavior for casting, reeling, and when something is caught")]
         [Header("Dependencies")]
 
         [SerializeField]

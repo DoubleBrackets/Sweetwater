@@ -18,7 +18,7 @@ namespace SquidMinigame
             public float Weight;
         }
 
-        [InfoBox("Handles loot spawning from fishing with variable weights")]
+        [InfoBox("Handles randomized loot spawning with variable weights")]
         [Header("Depends")]
 
         [SerializeField]
